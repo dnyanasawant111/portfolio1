@@ -1,0 +1,50 @@
+.dp-image {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    object-fit: contain;
+
+}
+
+.About-heading {
+    font-size: 5rem;
+    color: white;
+    font-family: "Great Vibes";
+}
+
+@media only screen and (max-width: 950px) {
+    .About-heading {
+        font-size: 2rem;
+    }
+
+}
+
+.about p {
+    color: rgba(232, 221, 221, 0.574);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.about-me h1 {
+    color: white;
+    font-weight: 700;
+    text-decoration: underline;
+    padding: 1rem;
+}
+
+.about-me p {
+    color: white;
+    font-weight: 400;
+    padding: 0.4rem;
+    line-height: normal;
+}
+
+.about-main {
+    background-image: linear-gradient(rgb(41, 40, 40), rgb(41, 18, 18));
+}
+
+.contact-btn:hover {
+    background-color: coral !important;
+    border: none;
+    color: white !important;
+}

@@ -1,0 +1,43 @@
+.main-contact h1 {
+  color: white;
+  text-decoration: underline;
+  font-weight: 800;
+}
+
+.main-contact p {
+  color: white;
+  padding: 0.5rem;
+}
+
+.main-contact {
+  background-image: linear-gradient(rgb(53, 54, 41), rgb(44, 3, 3));;
+  background-image: url('/Images/contact-bg1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: auto;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.contact-form button {
+  color: white;
+  padding: 10px 15px;
+  background-color: coral;
+  border: none;
+}

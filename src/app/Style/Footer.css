@@ -1,0 +1,40 @@
+.footer-main {
+    background-image: linear-gradient(rgb(53, 54, 41), rgb(44, 3, 3));
+    ;
+    background-image: url('/Images/bg-2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2rem;
+}
+
+.footer-main ul {
+    list-style: none;
+    color: white;
+}
+
+.footer-main li {
+    padding: 0.3rem;
+    color: white;
+}
+
+.nav-links1 {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.nav-links1:hover {
+    color: rgb(246, 91, 7);
+}
+
+.linkdin {
+    text-decoration: none;
+    color: darkcyan;
+}
+
+.resume-download {
+    border: none;
+    background: transparent;
+    color: white;
+}

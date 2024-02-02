@@ -1,0 +1,86 @@
+.nav {
+    background-color: #459c98;
+    padding: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.main-nav {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+
+}
+
+.brand {
+    color: white;
+    font-size: 2rem;
+    font-family: "Great Vibes";
+    padding: 1rem;
+    text-decoration: underline;
+
+}
+
+.linksContainer {
+    display: flex;
+    gap: 2rem;
+    flex-direction: row;
+    padding: 1rem;
+
+}
+
+.nav-links {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.nav-links:hover {
+    color: rgb(246, 91, 7);
+
+}
+
+@media only screen and (max-width: 750px) {
+    .nav-links {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+
+.menuButton {
+    cursor: pointer;
+    display: none;
+    color: aliceblue;
+}
+
+@media (max-width: 768px) {
+    .linksContainer {
+        display: none;
+    }
+
+    .menuButton {
+        display: block;
+    }
+}
+
+.drawer-linksContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.active-link {
+    color: yellow;
+}
+
+.scrolled {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 0.1rem;
+    transition: padding 0.6s ease;
+}
