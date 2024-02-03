@@ -2,7 +2,7 @@
     background-color: #459c98;
     padding: 0.5rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     position: fixed;
     width: 100%;
@@ -18,16 +18,17 @@
 
 .brand {
     color: white;
-    font-size: 2rem;
+    font-size: 1.3rem;
     font-family: "Great Vibes";
-    padding: 0.2rem;
+    padding: 0.5rem;
     text-decoration: underline;
+    font-weight: 900;
 
 }
 
 @media only screen and (max-width: 750px) {
     .brand {
-        font-size: 1.2rem;
+        font-size: 0.9rem;
     }
 }
 
