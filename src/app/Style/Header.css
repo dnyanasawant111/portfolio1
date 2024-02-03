@@ -1,8 +1,8 @@
 .nav {
     background-color: #459c98;
-    padding: 0.6rem;
+    padding: 0.5rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     position: fixed;
     width: 100%;
@@ -20,9 +20,15 @@
     color: white;
     font-size: 2rem;
     font-family: "Great Vibes";
-    padding: 1rem;
+    padding: 0.2rem;
     text-decoration: underline;
 
+}
+
+@media only screen and (max-width: 750px) {
+    .brand {
+        font-size: 1.2rem;
+    }
 }
 
 .linksContainer {
