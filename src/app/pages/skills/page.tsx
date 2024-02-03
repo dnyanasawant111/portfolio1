@@ -6,7 +6,7 @@ import Footer from '@/app/Component/Footer'
 
 const page = () => {
   return (
-    <div className='pt-5 '>
+    <div className='pt-4 '>
       <div className="pt-4">
         <Skills />
         <Footer />

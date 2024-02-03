@@ -6,8 +6,8 @@ import React from 'react'
 
 const page = () => {
     return (
-        <div className='pt-5'>
-            <div className="pt-5">
+        <div className='pt-4'>
+            <div className="pt-4">
                 <Contact />
                 <Footer/>
             </div>
