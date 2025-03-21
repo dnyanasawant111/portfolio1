@@ -11,7 +11,7 @@ const Projects: React.FC = () => {
             data-aos-duration="1000">
             <div className="container">
                 <h1>Projects</h1>
-                <p>Check out some of my work right here</p>
+                <p>Check out some of my work right here.</p>
                 <div className="row  d-flex  gap-4 justify-content-around w-100 pt-5 pb-5 text-center ">
                     <div className="col-lg-3 project-details"
                         data-aos="zoom-in"
