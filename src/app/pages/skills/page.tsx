@@ -1,7 +1,6 @@
 import Skills from '@/app/Component/Skills'
 import React from 'react'
 import '../../Style/Skills.css'
-import Header from '@/app/Component/Header'
 import Footer from '@/app/Component/Footer'
 
 const page = () => {
