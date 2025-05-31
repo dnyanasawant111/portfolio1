@@ -63,7 +63,7 @@ const Footer: React.FC = () => {
                         </div>
                     </div>
                     <p className='text-center'>
-                        &copy; 2024 Dnyaneshwar Sawant. All rights reserved.
+                        &copy; 2025 Dnyaneshwar Sawant. All rights reserved.
                     </p>
                 </div>
             </footer>
