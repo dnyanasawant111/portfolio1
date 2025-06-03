@@ -26,7 +26,7 @@ const Contact:React.FC = () => {
       'service_9vindbs',
       'template_1ffa6mi',
       e.currentTarget,
-      'BH73g5h7EQD57fH5C')
+      'l8JR6_jNAwVl3Zmkh')
       .then((result) => {
         console.log(result.text);
 
@@ -63,7 +63,7 @@ const Contact:React.FC = () => {
 
             <button className='btn btn-info w-50' type="submit">Let's Connect</button>
           </form> : <div className="alert alert-primary p-4" role="alert">
-            Thanks for connecting with Dnyaneshwar. I will connect with you shortly.
+            Thanks for connecting with Dnyaneshwar Sawant. I will connect with you shortly.
           </div>}
         </div>
       </div>
